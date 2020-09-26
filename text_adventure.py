@@ -7,7 +7,7 @@ time.sleep(3)
 print("\nA long time ago in a galaxy far far away, a warrior was born.")
 time.sleep(1)
 print("Does this warrior have a name?")
-name=raw_input("> ")
+name=input("> ")
 print(name, "blaster in hand and looking for adventure!")
 time.sleep(1)
 print("As always, when a brave warrior looks for adventure, evil is nearby...")
@@ -62,7 +62,7 @@ def soliders():
     time.sleep(2)
 
 def getcmd(cmdlist):
-    cmd = raw_input(name + ">")
+    cmd =input(name + ">")
     if cmd in cmdlist:
         return cmd
     elif cmd == "help":
